@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div className="container-fluid" >
 
-            <img className="responsive-img" src={backImage} alt="Backgroung-Image"/>
+            <img className="responsive-img" src={backImage} alt="Background-pic"/>
         
         </div>
     )
