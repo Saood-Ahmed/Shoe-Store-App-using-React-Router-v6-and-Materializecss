@@ -26,7 +26,7 @@ function App() {
     <div className="container-fluid">
     <nav>
     <div className="nav-wrapper blue-grey darken-4">
-      <a href="/" className="brand-logo center">Shoe Store App</a>
+      <a href="/" className="brand-logo center">Shoes</a>
       <ul id="nav-mobile" >
         <li><Link to='/'>Home</Link></li>
         <li><Link to='/store'>Store</Link></li>

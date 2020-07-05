@@ -66,6 +66,7 @@ export const Store = () => {
              <div className="card-content white-text  blue-grey darken-4">
              <h3>{currentShoe.name}</h3>
              <h3>Price: {currentShoe.price}</h3>
+             <h3>Sizes Available: sm/m/l</h3>
             
                 </div>
              </div>
