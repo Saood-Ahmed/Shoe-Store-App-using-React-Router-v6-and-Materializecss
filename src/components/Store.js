@@ -49,7 +49,7 @@ export const Store = () => {
         <div className="container" style={{alignItems:'center', textAlign:'center'}}>
 
            <div className="row">
-            <div className="col s12 m6">
+            <div className="col s12 m8">
                   <div className="card">
                     <div className="card-image">
                      <img src={currentShoe.pic} className='responsive-img' alt={`${currentShoe.name}`}/>
@@ -60,12 +60,12 @@ export const Store = () => {
              </div>
            </div>
 
-           <div className="col s12 m6">
+           <div className="col s12 m4">
                   <div className="card">
                    
              <div className="card-content white-text  blue-grey darken-4">
-             <h1>{currentShoe.name}</h1>
-             <h1>Price: {currentShoe.price}</h1>
+             <h3>{currentShoe.name}</h3>
+             <h3>Price: {currentShoe.price}</h3>
             
                 </div>
              </div>
